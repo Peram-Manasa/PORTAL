@@ -1,0 +1,35 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+
+.Containers{
+    min-width:100% !important;
+    height:200px;
+    background-color:navy;
+    color:white;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+// .row1{
+//     animation: marquee 10s  linear infinite;
+//     margin-top: 120px !important;
+//   }
+//   @keyframes marquee {
+//     0% {
+//       transform: translateY(0);
+//     }
+//     100% {
+//       transform: translateY(-100%);
+//     }
+//   }
+
+.row2{
+    z-index:-1;
+    background-color: red;
+  }
+
+  
+  .carousel-item:not(.active){
+     display: none ;
+  }
